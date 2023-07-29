@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+    display: block;
+    max-width: 125px; /* Adjust the size as needed */
+    height: auto;
+    margin: 20px; /* Adjust the margin as needed */
+    mix-blend-mode: multiply;
+    
+  }
+
+.chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+
+.chat-header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chat-history {
+    padding: 10px;
+    
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.message {
+    margin-bottom: 12px;
+}
+
+.bot-message {
+    text-align: left;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.user-message {
+    text-align: right;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message-text {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    border-radius: 10px;
+    margin-bottom: 175px;
+    
+
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 10px;
+    height: 25px;
+    width : 350px;
+    margin-left: 5px;
+}
+
+#sendButton {
+    margin-left: 13px;
+    background-color: gray;
+    color: black;
+    border-radius: 12px;
+    width: 70px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#sendButton:hover {
+    mix-blend-mode: multiply;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+/* Add this CSS to align tags horizontally */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Optional: Add some styling to the tags */
+  .footer-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-tags li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-tags li:last-child {
+    margin-right: 0; /* Remove the right margin for the last tag */
+  }
+  
